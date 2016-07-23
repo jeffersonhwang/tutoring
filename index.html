@@ -48,7 +48,7 @@
               <div class="hero-text">
                 <p>Tutoring available for <br class="desktop">standardized tests, software development, and math.</p>
               </div>
-              <a href="#contact" class="button hero__cta">Contact Me</a>
+              <a href="#contact" class="button large">Contact Me</a>
               <p class="servicing">Servicing the City of San Diego</p>
             </div>
           </div>
@@ -56,7 +56,7 @@
 
         <!-- About me -->
         <div class="row">
-          <div id="about" class="section large-10 medium-11 small-10  small-centered columns">
+          <div id="about" class="section large-10 medium-11 small-10 small-centered columns">
             <div class="about-title">
               <h3>About me</h3>
             </div>
@@ -73,7 +73,7 @@
 
         <!-- Subjects -->
         <div class="row">
-          <div id="subjects" class="section large-10 medium-11 small-10 small-centered columns">
+          <div id="subjects" class="section">
             <div class="subjects-title">
               <h3>Tutoring available for</h3>
             </div>
@@ -87,8 +87,8 @@
               </div>
               <div class="medium-6 columns image-column">
                 <div class="subject-caption">
-                  <h4 class="subject-title">Mathematics</h4>
-                  <p class="subject-text">Algebra, Geometry, Calculus</p>
+                  <h4 class="subject-title">Computer Science</h4>
+                  <p class="subject-text">Algorithms, data structures, software architecture, OOP, and more</p>
                 </div>
               </div>
             </div>
@@ -96,14 +96,14 @@
             <div class="row image-grid">
               <div class="medium-6 columns image-column">
                 <div class="subject-caption">
-                  <h4 class="subject-title">Computer Science</h4>
-                  <p class="subject-text">Algorithms, data structures, software architecture, OOP, and syntax for a variety of languages.</p>
+                  <h4 class="subject-title">Programming Projects</h4>
+                  <p class="subject-text">Homework, personal projects, final projects</p>
                 </div>
               </div>
               <div class="medium-6 columns image-column">
                 <div class="subject-caption">
-                  <h4 class="subject-title">Physics</h4>
-                  <p class="subject-text">Physics, Physics, Physics, Physics, Physics, Physics, Physics...</p>
+                  <h4 class="subject-title">Mathematics&nbsp;&nbsp;&nbsp;</h4>
+                  <p class="subject-text">Algebra, Geometry, Calculus</p>
                 </div>
               </div>
             </div>
@@ -112,7 +112,7 @@
         </div>
 
         <!-- How it works -->
-        <div id="hiw" class="section large-10 medium-11 small-10  small-centered columns">
+        <div id="hiw" class="section">
           <div class="hiw-header">
             <h3>How it works</h3>
           </div>
@@ -133,10 +133,18 @@
           </div>
         </div>
 
-        <div id="contact">
-          <form>
-            
-          </form>
+        <div class="row">
+          <div id="contact" class="section large-5 medium-5 small-10 small-centered columns">
+            <div class="contact-title">
+              <h3>Contact me</h3>
+            </div>
+            <form id="contact-form" action="https://formspree.io/jeffstutoringservice@gmail.com" method="post">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="text" name="email" placeholder="Email" required>
+              <textarea name="message" placeholder="Your message" cols="40" rows="5" required></textarea>
+              <input type="submit" value="Send" class="button expanded">
+            </form>
+          </div>
         </div>
 
       </div>
