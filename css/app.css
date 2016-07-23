@@ -151,11 +151,12 @@ a {
 
 .hiw-item-title {
 	margin: 0 0 22px;
+	font-weight: bold;
 }
 
 .hiw-item-content
 {
-    max-width: 500px;
+    max-width: 300px;
     margin: 0 auto;
 }
 
@@ -171,11 +172,16 @@ a {
 }
 
 #contact {
-	margin-bottom: 5em;
+	margin-bottom: 3.5em;
 }
 
 .contact-title {
 	text-align: center;
+}
+
+.footer {
+	text-align: center;
+	margin-bottom: 2em;
 }
 
 @media only screen and (min-width: 64.0625em) {
@@ -278,11 +284,15 @@ a {
 	.hiw-item-title {
 		font-size: 40px;
 		line-height: 34px;
-		font-weight: bold;
 	}
 
 	.hiw-header h4{
 		font-size: 1rem;
+	}
+
+	.hiw-item-content
+	{
+	    max-width: 500px;
 	}
 
 	.subject-caption {
@@ -298,4 +308,7 @@ a {
 		margin-bottom: 10em;
 	}
 	
+	.footer {
+		text-align: right;
+	}
 }
