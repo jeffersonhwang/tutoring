@@ -13,7 +13,6 @@
         $('#contact-form').on('submit', function(e) {
           e.preventDefault();
           var data = $('#contact-form').serializeArray();
-          console.log(data);
            $.ajax({
               url: "https://formspree.io/jeffstutoringservice@gmail.com", 
               method: "POST",
