@@ -199,6 +199,11 @@ a {
 		margin-right: auto;
 		margin-left: auto;
 	}
+
+	.navigation-links {
+		float: none;
+		text-align: center;
+	}
 }
 
 @media only screen and (min-width: 64.0625em) {
