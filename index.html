@@ -31,9 +31,9 @@
                 $('input[type="submit"]').attr('value', 'Sent!');
 
                 var inputs = $('input[type="text"]');
-                for (var i = 0;i < inputs.length;i++) {
-                  inputs[i].value = '';
-                }
+                $(inputs[0]).val('');
+                $(inputs[1]).val('');
+                $('textarea').val('');
 
                 setTimeout(function() {
                   $('input[type="submit"]').attr('value', 'Send');
